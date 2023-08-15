@@ -1,0 +1,62 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore local development settings
+*.env
+*.sqlite3
+
+# Ignore Docker Compose related files
+docker-compose.yml
+docker-compose.override.yml
+.docker/
+
+# Ignore virtual environment
+venv/
+env/
+ENV/
+
+# Ignore local database files
+db.sqlite3
+
+# Ignore media and static files
+media/
+static/
+
+# Ignore logs
+*.log
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore system and text editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Ignore environment-specific files
+.env
+
+# Ignore sensitive configuration files
+*.config
+
+# Ignore migration files if you're using South or Django migrations
+# Comment this out if you're using migrations
+# /<app_name>/migrations/
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore compiled CSS files
+*.css
+
+# Ignore compiled HTML files
+*.html
+
+# Ignore compiled binary files
+*.bin
+
+# Ignore various other temporary files
+*.tmp
