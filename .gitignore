@@ -60,3 +60,7 @@ Thumbs.db
 
 # Ignore various other temporary files
 *.tmp
+
+# Postgres
+.pg_pass
+.pg_service.conf
